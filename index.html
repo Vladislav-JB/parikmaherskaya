@@ -55,7 +55,7 @@
   @media (max-width: 860px) { .bar.is-scrolled { background: rgb(var(--canvas-rgb) / .95); } }
 
   /* ---- 1 · первый экран ------------------------------------------------------------ */
-  @media (min-width: 861px) { .hero__scrim { background: linear-gradient(to right, rgb(var(--canvas-rgb) / .985) 0%, rgb(var(--canvas-rgb) / .93) 34%, rgb(var(--canvas-rgb) / .35) 58%, transparent 76%); } } /* закрывает размытое растение слева на фото */
+  @media (min-width: 861px) { .hero__scrim { background: linear-gradient(to right, rgb(var(--canvas-rgb) / .985) 0%, rgb(var(--canvas-rgb) / .93) 34%, rgb(var(--canvas-rgb) / .35) 58%, transparent 76%) !important; } } /* закрывает размытое растение слева на фото */
 .hero__back img { position: absolute; max-width: none; width: 112%; height: 112%; left: -6%; top: -6%; object-fit: cover; object-position: var(--hero-pos, 50% 50%); }
   .hero__scrim { position: absolute; inset: 0; z-index: 2; pointer-events: none;
     background: linear-gradient(var(--scrim-dir, to right), rgb(var(--canvas-rgb) / .94) 0%, rgb(var(--canvas-rgb) / .7) 36%, rgb(var(--canvas-rgb) / .15) 64%, transparent 78%); }
